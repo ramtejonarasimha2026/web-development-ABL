@@ -1,0 +1,54 @@
+header{
+font-size:30px;
+font-family:Times New Roman;
+}
+h1,h3{
+font-size:30px;
+font-weight:50;
+font-family:
+}
+td:last-child{
+background-color:skyblue;
+border-radius:50%;
+padding:10px;
+}
+tr:nth-child(3) td:last-child{
+background-color:green;
+border-radius:50%;
+padding:10px;
+}
+tr:nth-child(4) td:last-child{
+background-color:red;
+border-radius:50%;
+padding:10px;
+}
+td,th{
+font-size:30px;
+font-weight:bold;
+border:10px;
+font
+}
+.glow-badge {
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  /* Pulsing glow animation
+  animation: badge-glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes badge-glow {
+  from {
+    box-shadow: 0 0 5px #ff0055, 0 0 10px #ff0055;
+    text-shadow: 0 0 2px #ffffff;
+  }
+  to {
+    box-shadow: 0 0 15px #ff3377, 0 0 25px #ff0055, 0 0 35px #ff0055;
+    text-shadow: 0 0 8px #ffffff;
+  }
+} */
